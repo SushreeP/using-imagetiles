@@ -1,9 +1,11 @@
 .App {
   text-align: center;
   display: grid;
-  height: 300vh;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  padding: 5% 20% 5% 20%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.2rem;
 }
 
 .tile {
